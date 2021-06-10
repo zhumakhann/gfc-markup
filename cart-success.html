@@ -226,378 +226,46 @@
   </div>
 </header>
     <main class="main">
-      <section class="cart-page">
+      <section class="cart-success">
         <div class="container">
-          <h2 class="cart-page__title">
-            В корзине 5 товаров <span class="cart-page__title-discount">со скидкой 4 000 ₸</span><span
-              class="cart-page__title-final"> Итого сумма 20 000 ₸</span>
-          </h2>
-          <!-- <a class="cart-page__link white" href="#">
-            Вернуться на главную
-          </a> -->
-          <div class="cart-page__wrapper">
-            <a class="cart-page__link green" href="#">Оформить заказ</a>
-            <div class="cart-page__info info">
-              Вы получите +50Б на ваш аккаунт
-              <svg class="info__button" width="20" height="20" viewBox="0 0 20 20" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <circle cx="10" cy="10" r="9.25" stroke="black" stroke-width="1.5" />
-                <path
-                  d="M8.99023 12.0742C8.99023 11.4681 9.06543 10.985 9.21582 10.625C9.36621 10.265 9.66243 9.87077 10.1045 9.44238C10.5511 9.00944 10.8337 8.70182 10.9521 8.51953C11.1344 8.24154 11.2256 7.94076 11.2256 7.61719C11.2256 7.1888 11.1185 6.86296 10.9043 6.63965C10.6947 6.41178 10.3848 6.29785 9.97461 6.29785C9.58268 6.29785 9.26595 6.40951 9.02441 6.63281C8.78743 6.85156 8.66895 7.15007 8.66895 7.52832H7.00781C7.01693 6.72168 7.29036 6.08366 7.82812 5.61426C8.37044 5.14486 9.08594 4.91016 9.97461 4.91016C10.8906 4.91016 11.6038 5.14258 12.1143 5.60742C12.6292 6.07227 12.8867 6.72168 12.8867 7.55566C12.8867 8.2985 12.5404 9.02995 11.8477 9.75L11.0068 10.5771C10.7061 10.9189 10.5511 11.418 10.542 12.0742H8.99023ZM8.87402 14.2002C8.87402 13.9313 8.95833 13.7148 9.12695 13.5508C9.29557 13.3822 9.52344 13.2979 9.81055 13.2979C10.1022 13.2979 10.3324 13.3844 10.501 13.5576C10.6696 13.7262 10.7539 13.9404 10.7539 14.2002C10.7539 14.4508 10.6719 14.6605 10.5078 14.8291C10.3438 14.9977 10.1113 15.082 9.81055 15.082C9.50977 15.082 9.27734 14.9977 9.11328 14.8291C8.95378 14.6605 8.87402 14.4508 8.87402 14.2002Z"
-                  fill="black" />
-              </svg>
-              <div class="info__content">
-                <h4 class="info__content-title">
-                  Какой-то заголовок
-                </h4>
-                <p class="info__content-text">
-                  По своей сути рыбатекст является альтернативой традиционному lorem ipsum.
-                </p>
-                <a class="info__content-link" href="#">
-                  Подробнее о балах
-                </a>
-              </div>
-            </div>
-          </div>
+          <h3 class="cart-success__title">
+            Ура! Заказ оформлен
+
+          </h3>
+          <p class="cart-success__descr">
+            Ожидайте звонка от курьера.
+          </p>
+          <p class="cart-success__account">
+            Отслеживайте свой заказ в личном кабинете
+          </p>
+          <a href="#" class="cart-page__link white cart-page__success-link">В личный кабинет</a>
+
         </div>
-        <ul class="cart-page__list flex --just-space">
-          <li class="cart-page__list-item product">
-            <p class="product__points">
-              +10Б
-            </p>
-            <h3 class="product__title">
-              HealthTea «БОДРЯЩИЙ»
-            </h3>
-            <p class="product__descr">
-              Стимулирует пищеворение
-            </p>
-            <div class="product__price">
-              <p class="product__price-item product__price-new">
-                13 000 ₸
-              </p>
-              <p class="product__price-item product__price-old">
-                20 000
-              </p>
-            </div>
-            <p class="product__price-discount">
-              50%
-            </p>
-            <div class="product__buttons flex">
-              <button class="product__buttons-plus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-              <span class="product__buttons-value">
-                1
-              </span>
-              <button class="product__buttons-minus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-            </div>
-            <img class="product__img" src="img/product-1.png" alt="">
-          </li>
-          <li class="cart-page__list-item product">
-            <p class="product__points">
-              +10Б
-            </p>
-            <h3 class="product__title">
-              HealthTea «БОДРЯЩИЙ»
-            </h3>
-            <p class="product__descr">
-              Стимулирует пищеворение
-            </p>
-            <div class="product__price">
-              <p class="product__price-item product__price-new">
-                13 000 ₸
-              </p>
-              <p class="product__price-item product__price-old">
-                20 000
-              </p>
-            </div>
-            <p class="product__price-discount">
-              50%
-            </p>
-            <div class="product__buttons flex">
-              <button class="product__buttons-plus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-              <span class="product__buttons-value">
-                1
-              </span>
-              <button class="product__buttons-minus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-            </div>
-            <img class="product__img" src="img/product-1.png" alt="">
-          </li>
-          <li class="cart-page__list-item product">
-            <p class="product__points">
-              +10Б
-            </p>
-            <h3 class="product__title">
-              HealthTea «БОДРЯЩИЙ»
-            </h3>
-            <p class="product__descr">
-              Стимулирует пищеворение
-            </p>
-            <div class="product__price">
-              <p class="product__price-item product__price-new">
-                13 000 ₸
-              </p>
-              <p class="product__price-item product__price-old">
-                20 000
-              </p>
-            </div>
-            <p class="product__price-discount">
-              50%
-            </p>
-            <div class="product__buttons flex">
-              <button class="product__buttons-plus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-              <span class="product__buttons-value">
-                1
-              </span>
-              <button class="product__buttons-minus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-            </div>
-            <img class="product__img" src="img/product-1.png" alt="">
-          </li>
-          <li class="cart-page__list-item product">
-            <p class="product__points">
-              +10Б
-            </p>
-            <h3 class="product__title">
-              HealthTea «БОДРЯЩИЙ»
-            </h3>
-            <p class="product__descr">
-              Стимулирует пищеворение
-            </p>
-            <div class="product__price">
-              <p class="product__price-item product__price-new">
-                13 000 ₸
-              </p>
-              <p class="product__price-item product__price-old">
-                20 000
-              </p>
-            </div>
-            <p class="product__price-discount">
-              50%
-            </p>
-            <div class="product__buttons flex">
-              <button class="product__buttons-plus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                  <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-              <span class="product__buttons-value">
-                1
-              </span>
-              <button class="product__buttons-minus">
-                <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-                  <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                </svg>
-              </button>
-            </div>
-            <img class="product__img" src="img/product-1.png" alt="">
-          </li>
-        </ul>
       </section>
-      <section class="similar">
-  <div class="container">
-    <h2 class="title similar__title">Похожие товары</h2>
-    <ul class="similar__list">
-      <div class="similar__list-item product">
-        <p class="product__points">
-          +10Б
-        </p>
-        <h3 class="product__title">
-          HealthTea «БОДРЯЩИЙ»
-        </h3>
-        <p class="product__descr">
-          Стимулирует пищеворение
-        </p>
-        <div class="product__price">
-          <p class="product__price-item product__price-new">
-            13 000 ₸
-          </p>
-          <p class="product__price-item product__price-old">
-            20 000
-          </p>
+      <section class="cart-account">
+        <div class="container">
+          <h2 class="cart-account__title">
+            Придумайте пароль для вашего аккаунта
+          </h2>
+          <form class="cart-account__form">
+            <label class="cart-account__form-item">
+              <input type="password" class="cart-account__form-item__input" placeholder="Пароль">
+              <button class="cart-account__form-item__show" type="button">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M3.26562 3L20.2362 19.9706" stroke="#17191F" stroke-width="1.5" />
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M18.0377 17.7711L16.9167 16.6501C15.5172 17.3047 13.8073 17.7344 11.7502 17.7344C5.41183 17.7344 2.37026 13.6553 1.54563 11.4844C2.1027 10.0178 3.67145 7.68054 6.58478 6.31818L5.46373 5.19713C2.29228 6.85877 0.594477 9.55759 0.0401298 11.2428C0.0138796 11.3198 -1.53801e-05 11.4013 1.30524e-08 11.4844C-1.55445e-05 11.5674 0.0138769 11.649 0.0401226 11.7259C0.886456 14.2988 4.39814 19.2344 11.7502 19.2344C14.2873 19.2344 16.367 18.6466 18.0377 17.7711ZM7.46223 4.3672C8.71578 3.97083 10.141 3.73438 11.7502 3.73438C19.1023 3.73438 22.6139 8.66994 23.4603 11.2428C23.4867 11.3204 23.5006 11.4026 23.5004 11.4864C23.5002 11.5687 23.4863 11.6495 23.4603 11.7259C23.0167 13.0745 21.8408 15.0723 19.7632 16.6682L18.6916 15.5966C20.4875 14.2744 21.5238 12.6188 21.9548 11.4844C21.1301 9.31345 18.0886 5.23438 11.7502 5.23438C10.6254 5.23438 9.60447 5.36283 8.6813 5.58627L7.46223 4.3672ZM8.58584 8.31924C7.71146 9.11594 7.16671 10.2394 7.16671 11.4844C7.16671 13.9006 9.21873 15.8594 11.75 15.8594C12.9776 15.8594 14.0925 15.3987 14.9152 14.6486L13.8532 13.5866C13.312 14.0609 12.5813 14.3594 11.75 14.3594C9.98064 14.3594 8.66671 13.0072 8.66671 11.4844C8.66671 10.6765 9.03649 9.91668 9.64788 9.38128L8.58584 8.31924ZM11.7047 8.60967L10.3979 7.30287C10.8253 7.17709 11.2794 7.10938 11.75 7.10938C14.2813 7.10938 16.3334 9.06813 16.3334 11.4844C16.3334 12.0052 16.238 12.5048 16.0631 12.9681L14.8222 11.7272C14.8296 11.6469 14.8334 11.5659 14.8334 11.4844C14.8334 9.96155 13.5194 8.60938 11.75 8.60938C11.7349 8.60938 11.7198 8.60947 11.7047 8.60967Z"
+                    fill="#17191F" />
+                </svg>
+              </button>
+            </label>
+            <label class="cart-account__form-item">
+              <input type="password" class="cart-account__form-item__input" placeholder="Подтвердите пароль">
+            </label>
+            <button class="cart-page__link green cart-account__form-submit">Войти</button>
+          </form>
         </div>
-        <p class="product__price-discount">
-          50%
-        </p>
-        <div class="product__buttons flex">
-          <button class="product__buttons-plus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-          <span class="product__buttons-value">
-            1
-          </span>
-          <button class="product__buttons-minus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-        <img class="product__img" src="img/product-1.png" alt="">
-      </div>
-      <div class="similar__list-item product">
-        <p class="product__points">
-          +10Б
-        </p>
-        <h3 class="product__title">
-          HealthTea «БОДРЯЩИЙ»
-        </h3>
-        <p class="product__descr">
-          Стимулирует пищеворение
-        </p>
-        <div class="product__price">
-          <p class="product__price-item product__price-new">
-            13 000 ₸
-          </p>
-          <p class="product__price-item product__price-old">
-            20 000
-          </p>
-        </div>
-        <p class="product__price-discount">
-          50%
-        </p>
-        <div class="product__buttons flex">
-          <button class="product__buttons-plus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-          <span class="product__buttons-value">
-            1
-          </span>
-          <button class="product__buttons-minus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-        <img class="product__img" src="img/product-1.png" alt="">
-      </div>
-      <div class="similar__list-item product">
-        <p class="product__points">
-          +10Б
-        </p>
-        <h3 class="product__title">
-          HealthTea «БОДРЯЩИЙ»
-        </h3>
-        <p class="product__descr">
-          Стимулирует пищеворение
-        </p>
-        <div class="product__price">
-          <p class="product__price-item product__price-new">
-            13 000 ₸
-          </p>
-          <p class="product__price-item product__price-old">
-            20 000
-          </p>
-        </div>
-        <p class="product__price-discount">
-          50%
-        </p>
-        <div class="product__buttons flex">
-          <button class="product__buttons-plus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-          <span class="product__buttons-value">
-            1
-          </span>
-          <button class="product__buttons-minus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-        <img class="product__img" src="img/product-1.png" alt="">
-      </div>
-      <div class="similar__list-item product">
-        <p class="product__points">
-          +10Б
-        </p>
-        <h3 class="product__title">
-          HealthTea «БОДРЯЩИЙ»
-        </h3>
-        <p class="product__descr">
-          Стимулирует пищеворение
-        </p>
-        <div class="product__price">
-          <p class="product__price-item product__price-new">
-            13 000 ₸
-          </p>
-          <p class="product__price-item product__price-old">
-            20 000
-          </p>
-        </div>
-        <p class="product__price-discount">
-          50%
-        </p>
-        <div class="product__buttons flex">
-          <button class="product__buttons-plus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-              <path d="M14 8.75L14 19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-          <span class="product__buttons-value">
-            1
-          </span>
-          <button class="product__buttons-minus">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect x="0.75" y="0.75" width="26.5" height="26.5" rx="3.25" stroke-width="1.5" />
-              <path d="M8.75 14H19.25" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-            </svg>
-          </button>
-        </div>
-        <img class="product__img" src="img/product-1.png" alt="">
-      </div>
-    </ul>
-  </div>
-</section>
+      </section>
 
 
 
